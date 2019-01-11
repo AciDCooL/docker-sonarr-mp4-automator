@@ -1,5 +1,9 @@
-# aront/sonarr
-A docker container based on linuxserver/sonarr with mp4 automation baked in
+# aront/sonarr || Clone! ||
+
+Clone of arontx config, but with ffmpeg 4.x instead of 3.1 to support all functions and files.
+
+Problem started with that I had files that where stuck with the mp4automator and with an updated ffmpeg I got rid of this problem. Instead of the workaround (kill -9 PID) every time something got stuck.
+
 
 ## Usage
 ````
