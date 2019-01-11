@@ -1,4 +1,4 @@
-# aront/sonarr || Clone! ||
+# arontx/sonarr || Clone! ||
 
 Clone of arontx config, but with ffmpeg 4.x instead of 3.1 to support all functions and files.
 
