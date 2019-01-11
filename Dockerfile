@@ -3,6 +3,10 @@ FROM linuxserver/sonarr
 RUN \
   apt-get update && \
   apt-get install -y \
+  software-properties-common && \
+  add-apt-repository -y ppa:jonathonf/ffmpeg-4 && \
+  apt-get update && \
+  apt-get install -y \
   ffmpeg \
   git \
   python-pip \
@@ -35,5 +39,3 @@ RUN \
 	/tmp/* \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
-
-VOLUME config_mp4_automator
