@@ -1,4 +1,4 @@
-FROM linuxserver/sonarr
+FROM linuxserver/sonarr:latest
 
 RUN \
   apt-get update && \
