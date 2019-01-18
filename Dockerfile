@@ -34,6 +34,7 @@ RUN \
   touch /sickbeard_mp4_automator/info.log && \
   chmod a+rwx -R /sickbeard_mp4_automator && \
   mkdir /var/log/sickbeard_mp4_automator && \
+  touch /var/log/sickbeard_mp4_automator/index.log && \
   chmod 777 -R /var/log/sickbeard_mp4_automator && \
   ln -s /downloads /data && \
   ln -s /config_mp4_automator/autoProcess.ini /sickbeard_mp4_automator/autoProcess.ini && \
