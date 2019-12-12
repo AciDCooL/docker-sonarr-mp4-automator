@@ -4,7 +4,9 @@ RUN \
   apt-get update && \
   apt-get install -y \
   software-properties-common && \
-  add-apt-repository -y ppa:jonathonf/ffmpeg-4 && \
+  add-apt-repository -y ppa:savoury1/graphics && \
+  add-apt-repository -y ppa:savoury1/multimedia && \
+  add-apt-repository -y ppa:savoury1/ffmpeg4 && \
   apt-get update && \
   apt-get install -y \
   ffmpeg \
